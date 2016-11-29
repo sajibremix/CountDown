@@ -59,7 +59,7 @@ function timer() {
     if (minutes < 10) {
         minutes = "0" + minutes; 
     }
-    //document.getElementById('countdown').innerHTML = days + ":" + hours + ":" + minutes + ":" + remainingSeconds;
+
     document.getElementById('day').innerHTML = days;
     document.getElementById('hour').innerHTML = hours;
     document.getElementById('minute').innerHTML = minutes;
